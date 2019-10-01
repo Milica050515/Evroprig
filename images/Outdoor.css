@@ -1,0 +1,162 @@
+* { margin: 0; padding: 0; outline: 0 }
+
+body {
+	background: url(bg.jpg) repeat-x;
+	font: 70%/1.6em Verdana, Tahoma, Arial, Geneva, sans-serif;
+	color: #666666; 
+	text-align: center;
+	margin: 0 0 50px 0;
+}
+h1, h2, h3 {
+	font-family: 'Trebuchet MS', Tahoma, Sans-serif;
+	color: #444;
+}
+h1 {
+	font-size: 230%;	
+	font-weight: normal;
+	letter-spacing: -1px;
+}
+h2 {
+	font-size: 180%;
+	color: #88ac0b;
+}
+h3 {
+	font-size: 150%;	
+	font-weight: normal;	
+}
+
+h1, h2, h3, p {
+	padding: 10px;		
+	margin: 0;
+}
+img {
+	
+   border: 1px solid #dcdcdc;
+   height:120%;
+	
+	
+}
+img.float-right {
+  	margin: 5px 0px 10px 10px;  
+}
+img.float-left {
+  	margin: 5px 10px 10px 0px;
+}
+
+
+p{
+	font-size:13px;
+}
+ 
+#wrap {
+	position: relative;
+	
+	width: 900px;	
+	margin: 50px auto 0 auto;
+	text-align: left;
+}
+#content-wrap {
+	position: relative;
+	background: #fff url(content-bg.jpg) repeat-x;
+	clear: both;
+	float: left;	
+	width: 870px;	
+	padding-top: 0px; 			
+	margin-left: 15px;	
+	display: inline;
+	
+	border-bottom: 1px solid #e5e5e5;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+}
+#header {
+	position: relative;
+	background: #fff url(content-bg.jpg) repeat-x;
+	width: 870px;	
+	height: 100px;	
+	padding: 0;	
+	margin: 0px auto;
+}
+#header h1#logo-text a {
+	position: absolute;
+	margin: 0; padding: 0;
+	font: normal 42px Georgia, "Times New Roman", Times, serif;
+	letter-spacing: -1.5px;
+	color: #111;
+	text-transform: none;
+	text-decoration: none;
+	
+	
+	top: 22px; left: 20px;	
+}
+#header p#slogan {
+	position: absolute;
+	margin: 0; padding: 0;
+	font: normal 12px Georgia, "Times New Roman", Times, serif;
+	text-transform: none;
+	color: #5b4a29;
+	
+	
+	top: 67px; left: 25px;		
+}
+
+
+#header #header-links {
+	position: absolute;
+	top: 25px; right: 10px;	
+	color: #5b4a29;
+	font: normal 11px Georgia, "Times New Roman", Times, serif;
+	text-transform: uppercase;		
+}
+#header #header-links a {	
+	color: #5b4a29;
+	text-decoration: none;	
+	padding: 0 2px;
+	font-weight: bold;
+}
+
+
+
+#header-photo {
+	clear: both;
+	background: #fff;
+	margin: auto 0px auto 15px ;
+	padding: 0;		
+	height:300px; 
+	width: 870px;
+}
+#header-photo img {
+	border: none;
+	margin: 0; padding: 0;
+} 
+#uvuci{
+	padding-left:5%;
+}
+#desno{
+	float:right;
+}
+
+#main, #contact {
+	float: left;
+	width: 550px;
+	padding: 0px; margin: 0 0 0 10px;
+	display: inline;	
+}
+#main h2, #contact h2{
+	margin-top: 10px;
+	padding-bottom: 3px;
+	font: normal 2.3em 'Trebuchet MS', Tahoma, Sans-serif;
+	color: #895F30; 
+	letter-spacing: -1px;	
+	text-transform: none;
+}
+#main h2 a, #contact h2 a {
+	color: #895F30; 
+	text-decoration: none;	
+}
+#main ul li {
+	list-style-image: url(bullet.gif);
+}
+
+
+
